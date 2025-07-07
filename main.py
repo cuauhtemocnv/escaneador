@@ -97,7 +97,8 @@ def ejecutar_programa():
             print("No se encontró vuelo bajo 2000 MXN.")
         
         # Espera 8 horas (28,800 segundos)
-        time.sleep(28800)  # 8 horas = 28800 segundos
+        time.sleep(60)  # 8 horas = 28800 segundos
+        break
 
 # --- EJECUCIÓN DIRECTA ---
 if __name__ == "__main__":
